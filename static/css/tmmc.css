@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 90px;
+    background: #ff0036;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+
+    z-index: 999;
+}
+.box{
+    width: 100%;
+    height: auto;
+    padding-top: 90px;
+
+}
+.sou{
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 7px;
+    left: 7px;
+    color: white;
+    line-height: 8px;
+
+}
+.tii{
+    width: 118px;
+    height: 20px;
+    position:relative;
+    top: -50px;
+    left: 35%;
+
+}
+.deng{
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -79px;
+    right: -335px;
+    color: white;
+    line-height: 8px;
+    font-size: 15px;
+
+}
+.ss{
+    width: 355px;
+    height: 36px;
+    background: white;
+    position: relative;
+    bottom: 80px;
+    left: 9px;
+    border-radius: 4px;
+
+}
+.sl{
+    width: 15px;
+    height: 16px;
+    position: relative;
+    top: 7px;
+    left: 10px;
+    line-height: 0px;
+}
+.ipt{
+    position: relative;
+    width: 60%;
+    height: 30px;
+    top: -47px;
+    left: 30px;
+    border: none;
+    outline: none;
+}
+.sw{
+    width: 100%;
+    height: 143px;
+
+    padding: 5px;
+    box-sizing: border-box;
+}
+#swiper1{
+    width: 100%;
+    height: 100%;
+}
+.kong{
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+.dw{
+    width: 145px;
+    height: 48px;
+    position: relative;
+    top: -245px;
+    left: 15px;
+
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 48px;
+}
+.dw span{
+    font-size: 10px;
+    background: black;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 2px;
+    box-sizing: border-box;
+}
+.pic{
+    width: 375px;
+    height: 128px;
+    position: relative;
+    top: -233px
+
+}
+.pic ul{
+    display: flex;
+    justify-content: center;
+}
+.pic ul li{
+    width: 72px;
+    height: 120px;
+    margin: 0 5px;
+
+}
+
