@@ -859,6 +859,7 @@
     width: 1190px;
     height: 100px;
     background:url("../img/map.jpg");
+    background-size:contain ;
     overflow: hidden;
 }
 .map_cont{
@@ -1083,4 +1084,113 @@
 .leftbar_conr:last-child{
     background: rgba(0,0,0,0.3);
 }
+@media screen and (max-width: 1260px) {
+    .nav_container,.cxdown{
+        width: 988px;
+        margin: 0 auto;
+    }
+    .tit,.sou{
+        width: 982px;
+    }
+    .banner,.banner1{
+        width: 982px;
+    }
+    .banner_left{
+        width: 200px;
+        box-sizing: border-box;
+    }
+    .bannertan righttans{
+        width: 782px;
 
+    }
+    .tit1{
+        box-sizing: border-box;
+    }
+    .bannert_left{
+        width: 502px;
+    }
+   .bannertan{
+       left: 200px;
+   }
+   .cxup{
+       margin: 0 auto;
+   }
+   .cxd{
+       display: none;
+   }
+   .ppsgs{
+       width: 996px;
+   }
+   .ppsg{
+       display: none;
+   }
+   .adver {
+       width: 984px;
+   }
+   .ddd{
+       display: none;
+   }
+   .supermarket{
+       width: 996px;
+   }
+   .supermarket_tit{
+       width: 100%;
+       margin: 0 auto;
+   }
+   .ee{
+       display: none;
+   }
+   .cnxh_tit{
+       width: 996px;
+       margin: 0 auto;
+   }
+   .cnxh{
+       width: 996px;
+   }
+   .map_container{
+       width: 996px;
+       margin: 0 auto;
+   }
+   .map_tit{
+       width: 100%;
+   }
+   .map_cont{
+       width: 996px;
+   }
+   .ensure{
+       padding-left: 12px;
+   }
+   .zhandian{
+       width: 996px;
+       margin: 0 auto;
+   }
+   .zhandian p{
+       width: 100%;
+   }
+   #topbars{
+       width: 100%;
+   }
+   .cnxh_container{
+       width: 996px;
+   }
+   .container{
+       width: 996px;
+       margin: 0 auto;
+   }
+   .topbar{
+       width: 100%;
+   }
+   .tmcs{
+       width: 996px;
+       margin: 0 auto;
+   }
+   .tmcs_right{
+       width: 742px;
+   }
+   .tmcs_right2{
+       width: 232px;
+   }
+   .cx{
+       width: 996px;
+   }
+}
